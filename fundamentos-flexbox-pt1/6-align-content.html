@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - align items</title>
+  <style>
+    .container {
+      height: 400px;
+      max-width: 300px;
+      border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .item {
+      background-color: blue;
+      padding: 0 5px;
+      flex: 1;
+      text-align: center;
+      color: white;
+      margin: 5px
+    }
+
+    .stretch {
+      align-content: stretch;
+    }
+
+    .center {
+      align-content: center;
+    }
+
+    .start {
+      align-content: flex-start;
+    }
+
+    .end {
+      align-content: flex-end;
+    }
+
+    .between {
+      align-content: space-between;
+    }
+
+    .around {
+      align-content: space-around;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <h1>Row</h1>
+  <h3>Stretch</h3>
+  <div class="container stretch">
+    <div class="item">Lorem ipsum dolor sit amet dihsdishi</div>
+    <div class="item">Lorem ipsum dolor ikdskdks </div>
+    <div class="item">Lorem ipsum dolor sit dsidnsidni</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit</div>
+    <div class="item">Lorem ipsum dolor sit ametisdisjdhi</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <h3>Center</h3>
+  <div class="container center">
+    <div class="item">Lorem ipsum dolor sit amet dihsdishi</div>
+    <div class="item">Lorem ipsum dolor ikdskdks </div>
+    <div class="item">Lorem ipsum dolor sit dsidnsidni</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit</div>
+    <div class="item">Lorem ipsum dolor sit ametisdisjdhi</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <h3>Start</h3>
+  <div class="container start">
+    <div class="item">Lorem ipsum dolor sit amet dihsdishi</div>
+    <div class="item">Lorem ipsum dolor ikdskdks </div>
+    <div class="item">Lorem ipsum dolor sit dsidnsidni</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit</div>
+    <div class="item">Lorem ipsum dolor sit ametisdisjdhi</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <h3>End</h3>
+  <div class="container end">
+    <div class="item">Lorem ipsum dolor sit amet dihsdishi</div>
+    <div class="item">Lorem ipsum dolor ikdskdks </div>
+    <div class="item">Lorem ipsum dolor sit dsidnsidni</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit</div>
+    <div class="item">Lorem ipsum dolor sit ametisdisjdhi</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <h3>Between</h3>
+  <div class="container between">
+    <div class="item">Lorem ipsum dolor sit amet dihsdishi</div>
+    <div class="item">Lorem ipsum dolor ikdskdks </div>
+    <div class="item">Lorem ipsum dolor sit dsidnsidni</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit</div>
+    <div class="item">Lorem ipsum dolor sit ametisdisjdhi</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+  </div>
+
+  <h3>Around</h3>
+  <div class="container around">
+    <div class="item">Lorem ipsum dolor sit amet dihsdishi</div>
+    <div class="item">Lorem ipsum dolor ikdskdks </div>
+    <div class="item">Lorem ipsum dolor sit dsidnsidni</div>
+    <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit</div>
+    <div class="item">Lorem ipsum dolor sit ametisdisjdhi</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+  </div>
+
+</body>
+</html>
