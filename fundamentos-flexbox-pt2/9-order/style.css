@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.item {
+  background-color: cornflowerblue;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.largura {
+  width: 200px;
+  /* min-width: 250px; */
+}
